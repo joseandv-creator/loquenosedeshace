@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lo Que No Se Deshace — José Ángel Deschamps Vargas</title>
-<meta name="description" content="99 proposiciones sobre cómo vivir, derivadas desde lo que nadie puede negar.">
+<title>Lo Que No Se Deshace ‚Äî Jos√© √Ångel Deschamps Vargas</title>
+<meta name="description" content="99 proposiciones sobre c√≥mo vivir, derivadas desde lo que nadie puede negar.">
 <meta property="og:title" content="Lo Que No Se Deshace">
-<meta property="og:description" content="99 proposiciones sobre cómo vivir, derivadas desde lo que nadie puede negar.">
+<meta property="og:description" content="99 proposiciones sobre c√≥mo vivir, derivadas desde lo que nadie puede negar.">
 <meta property="og:type" content="book">
 <meta property="og:image" content="portada_ES.png">
 <style>
@@ -312,13 +312,13 @@
 
   <div class="author-section">
     <img src="profile.png" alt="" class="author-photo">
-    <p class="author">José Ángel Deschamps Vargas</p>
+    <p class="author">Jos√© √Ångel Deschamps Vargas</p>
   </div>
 
-  <p class="subtitle" data-lang="es">99 proposiciones sobre cómo vivir,<br>derivadas desde lo que nadie puede negar</p>
+  <p class="subtitle" data-lang="es">99 proposiciones sobre c√≥mo vivir,<br>derivadas desde lo que nadie puede negar</p>
   <p class="subtitle" data-lang="en">99 propositions on how to live,<br>derived from what no one can deny</p>
 
-  <p class="scroll-hint">↓</p>
+  <p class="scroll-hint">‚Üì</p>
 </section>
 
 <div class="container">
@@ -326,9 +326,9 @@
   <div class="divider"></div>
 
   <div class="backcover" data-lang="es">
-    <p>Desde lo que nadie puede negar, se sigue todo lo que importa sobre cómo vivir.</p>
-    <p>8 axiomas que se fortalecen cuando los atacas. 81 derivaciones que se siguen necesariamente. 2 postulados declarados. 6 verdades empíricas. 3 autocorrecciones. Cero saltos.</p>
-    <p>Si encuentras dónde falla la lógica y el deseo tomó su lugar, el autor es el primer interesado en saberlo.</p>
+    <p>Desde lo que nadie puede negar, se sigue todo lo que importa sobre c√≥mo vivir.</p>
+    <p>8 axiomas que se fortalecen cuando los atacas. 81 derivaciones que se siguen necesariamente. 2 postulados declarados. 6 verdades emp√≠ricas. 3 autocorrecciones. Cero saltos.</p>
+    <p>Si encuentras d√≥nde falla la l√≥gica y el deseo tom√≥ su lugar, el autor es el primer interesado en saberlo.</p>
   </div>
 
   <div class="backcover" data-lang="en">
@@ -341,23 +341,23 @@
 
   <div class="books">
     <div class="book">
-      <p class="book-label">Español</p>
+      <p class="book-label">Espa√±ol</p>
       <img src="portada_ES.png" alt="Lo Que No Se Deshace" class="book-cover">
       <a href="LO_QUE_NO_SE_DESHACE.pdf" class="book-link" target="_blank">
-        <span class="link-icon">📄</span>Leer PDF
+        <span class="link-icon">üìÑ</span>Leer PDF
       </a>
       <a href="#" class="book-link" id="audio-es-link">
-        <span class="link-icon">🎧</span>Audiolibro
+        <span class="link-icon">üéß</span>Audiolibro
       </a>
     </div>
     <div class="book">
       <p class="book-label">English</p>
       <img src="portada_EN.png" alt="What Does Not Come Undone" class="book-cover">
       <a href="WHAT_DOES_NOT_COME_UNDONE.pdf" class="book-link" target="_blank">
-        <span class="link-icon">📄</span>Read PDF
+        <span class="link-icon">üìÑ</span>Read PDF
       </a>
       <a href="#" class="book-link" id="audio-en-link">
-        <span class="link-icon">🎧</span>Audiobook
+        <span class="link-icon">üéß</span>Audiobook
       </a>
     </div>
   </div>
@@ -365,17 +365,17 @@
   <div class="divider"></div>
 
   <div class="note" data-lang="es">
-    <p>«No pude tener fe. No es virtud ni vicio — es descripción. Mi consciencia necesita ver la cadena antes de aceptar la conclusión. No elegí funcionar así. Funciono así.»</p>
+    <p>¬´No pude creer sin razonar. No es virtud ni vicio ‚Äî es descripci√≥n. Mi consciencia necesita ver la cadena antes de aceptar la conclusi√≥n. No eleg√≠ funcionar as√≠. Funciono as√≠.¬ª</p>
   </div>
 
   <div class="note" data-lang="en">
-    <p>"I could not have faith. It is neither virtue nor vice — it is description. My consciousness needs to see the chain before accepting the conclusion. I did not choose to function this way. I function this way."</p>
+    <p>"I could not have faith. It is neither virtue nor vice ‚Äî it is description. My consciousness needs to see the chain before accepting the conclusion. I did not choose to function this way. I function this way."</p>
   </div>
 
   <div class="divider"></div>
 
   <div class="closing">
-    <p data-lang="es">El test no está en estas páginas. Está afuera.</p>
+    <p data-lang="es">El test no est√° en estas p√°ginas. Est√° afuera.</p>
     <p data-lang="en">The test is not in these pages. It is outside.</p>
   </div>
 
@@ -401,6 +401,49 @@ if (saved) setLang(saved);
 // YouTube links - replace # with actual URLs when available
 // document.getElementById('audio-es-link').href = 'https://youtube.com/watch?v=YOUR_ES_VIDEO';
 // document.getElementById('audio-en-link').href = 'https://youtube.com/watch?v=YOUR_EN_VIDEO';
+
+// === SOVEREIGN CLICK TRACKING (no Google) ===
+(function() {
+  const STORAGE_KEY = 'lqnsd_stats';
+
+  function getStats() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
+    catch(e) { return {}; }
+  }
+
+  function track(event) {
+    const stats = getStats();
+    const today = new Date().toISOString().slice(0,10);
+    if (!stats[today]) stats[today] = {};
+    stats[today][event] = (stats[today][event] || 0) + 1;
+    stats._totals = stats._totals || {};
+    stats._totals[event] = (stats._totals[event] || 0) + 1;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
+  }
+
+  // Track page visit
+  track('visit');
+
+  // Track all outbound link clicks
+  document.querySelectorAll('a[href]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      const href = a.getAttribute('href');
+      if (href.includes('PDF') || href.includes('pdf')) {
+        track(href.includes('WHAT') || href.includes('EN') ? 'pdf_en' : 'pdf_es');
+      } else if (href.includes('youtube') || href.includes('youtu.be')) {
+        track(href.includes('EN') || href.includes('en') ? 'audio_en' : 'audio_es');
+      }
+    });
+  });
+
+  // Admin: type lqnsd_stats() in console to see stats
+  window.lqnsd_stats = function() {
+    const s = getStats();
+    console.table(s._totals || {});
+    console.log('By day:', s);
+    return s;
+  };
+})();
 </script>
 
 </body>
